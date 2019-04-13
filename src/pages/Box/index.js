@@ -104,7 +104,7 @@ export default class Box extends Component {
     const { box } = this.state;
     return (
       <View styles={styles.container}>
-        <Text style={styles.boxTitle}>{box.title}</Text>
+        <Text style={styles.boxtitle}>{box.title}</Text>
 
         <FlatList
           style={styles.list}
